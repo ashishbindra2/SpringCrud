@@ -10,3 +10,6 @@ Assignment for spring crud
 -  UPDATE `studentdb`.`student` SET `student_dob` = '', `student_doj` = '' WHERE (`student_id` = '4');
 -  UPDATE `studentdb`.`student` SET `student_dob` = '', `student_doj` = '' WHERE (`student_id` = '1');
 -  ALTER TABLE `studentdb`.`student` DROP COLUMN `student_id`,DROP PRIMARY KEY;
+-  DELETE FROM `studentdb`.`student` WHERE (`student_id` = '1');
+-  DELETE FROM `studentdb`.`student` WHERE (`student_id` = '4');
+
