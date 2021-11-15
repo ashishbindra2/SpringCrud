@@ -12,4 +12,7 @@ Assignment for spring crud
 -  ALTER TABLE `studentdb`.`student` DROP COLUMN `student_id`,DROP PRIMARY KEY;
 -  DELETE FROM `studentdb`.`student` WHERE (`student_id` = '1');
 -  DELETE FROM `studentdb`.`student` WHERE (`student_id` = '4');
+-  ALTER TABLE `studentdb`.`student` CHANGE COLUMN `student_no` `student_no` INT NOT NULL AUTO_INCREMENT ,ADD PRIMARY KEY (`student_no`);
+;
+
 
